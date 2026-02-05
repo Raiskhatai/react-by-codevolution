@@ -49,9 +49,20 @@ button {
 button:hover {
   border-color: #646cff;
 }
+div{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.form {
+  padding: 20px 30px;
+  color: white;
+  font-size: 20px;
 }
 
 @media (prefers-color-scheme: light) {

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100;
+  /* background-color: blueviolet; */
+}
+
+.sucess {
+  color: orange;
+  border: 2px solid white;
+  padding:20px;
+  border-radius: 50px;
+}
+
+.font-xl{
+    font-size: 90px;
+}
