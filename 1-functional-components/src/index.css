@@ -11,6 +11,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width:100vw;
+  height: 100vh;
 }
 
 a {
@@ -25,9 +27,17 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
   justify-content: center;
+}
+
+input {
+  text-align: center;
+  width: 250px;
+  height: 70px;
 }
 
 h1 {
@@ -49,7 +59,7 @@ button {
 button:hover {
   border-color: #646cff;
 }
-div{
+div {
   display: flex;
   flex-direction: column;
   width: 250px;
