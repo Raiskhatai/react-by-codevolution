@@ -30,12 +30,12 @@ import DocTitleOne from "./components/21-CustomHook/DocTitleOne";
 import DocTitleTwo from "./components/21-CustomHook/DocTitleTwo";
 import CounterONE from "./components/22-CountCustomHook/hooks/CounterONE";
 import CounterTWO from "./components/22-CountCustomHook/hooks/CounterTWO";
+import InputCustomHook from "./components/23-inputCustomHook/InputCustomHook";
 
 const App = () => {
   return (
     <div>
-      <CounterONE />
-      <CounterTWO />
+      <InputCustomHook />
     </div>
   );
 };
