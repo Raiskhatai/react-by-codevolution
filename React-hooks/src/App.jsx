@@ -22,11 +22,20 @@ import MultipleReducers from "./components/15-MultipleReducers/MultipleReducers"
 import UseReducerXUseContext from "./components/16-UseReducer_with-UseContext/UseReducerXUseContext";
 import FetchXuseReducer from "./components/17-FetchDataXuseReducer/FetchXuseReducer";
 import FetchXuseReducersPart2 from "./components/17-FetchDataXuseReducer/FetchXuseReducersPart2";
+import UseCallBack from "./components/18-useCallbackHook/UseCallBack";
+import UseMemo from "./components/19-useMemo/UseMemo";
+import FocusInputRef from "./components/20-useRef/FocusInputRef";
+import TimerRef from "./components/20-useRef/TimerRef";
+import DocTitleOne from "./components/21-CustomHook/DocTitleOne";
+import DocTitleTwo from "./components/21-CustomHook/DocTitleTwo";
+import CounterONE from "./components/22-CountCustomHook/hooks/CounterONE";
+import CounterTWO from "./components/22-CountCustomHook/hooks/CounterTWO";
 
 const App = () => {
   return (
     <div>
-      <FetchXuseReducersPart2 />
+      <CounterONE />
+      <CounterTWO />
     </div>
   );
 };
