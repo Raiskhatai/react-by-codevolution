@@ -1,12 +1,12 @@
-// type bata rha geetProps ek type hey jese number ek type hey. to greetProps object hona chahiye or uske name-ka type string hona chahiye or age honi chahiye age ka type number hona chahiye .
-type greetProps = {
+// type bata rha geetProps ek type hey jese number ek type hey. to GreetProps object hona chahiye or uske name-ka type string hona chahiye or age honi chahiye age ka type number hona chahiye .
+type GreetProps = {
   name: string;
-  messageCount: number;
-  isLoggedIn: boolean;
+  messageCount?: number;
+  isLoggedIn?: boolean;
 };
 
-const Greet = (props: greetProps) => {
-  console.log(props);
+export const Greet = (props: GreetProps) => {
+  // const { messageCount = 0 } = props;
   return (
     <div>
       <h1>
@@ -18,4 +18,4 @@ const Greet = (props: greetProps) => {
   );
 };
 
-export default Greet;
+// export default Greet;

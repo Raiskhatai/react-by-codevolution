@@ -14,13 +14,29 @@
 // import ThemeContext from "./components/12-UseContext/ThemeContext";
 // import Parent11 from "./components/13-UserContext-future-value/Parent11";
 // import UserContext from "./components/13-UserContext-future-value/UserContext";
+// import Parent12 from "./components/14-useRef/Parent12";
+// import Parent13 from "./components/15-class-component/Parent13";
+// import Parent14 from "./components/16-componentProps/parent14";
+// import Parent15 from "./components/17-generics/Parent15";
+// import Parent16 from "./components/18-Restricting-Prop/Parent16";
+// import Parent17 from "./components/19-template-literals/Parent17";
+// import Parent18 from "./components/20-wrapping-html-element/Parent18";
+// import Parent19 from "./components/21-Extracting/Parent19";
 
-import Parent12 from "./components/14-useRef/Parent12";
+import Text from "./components/22-Polymorphic/Text";
 
 const App = () => {
   return (
     <div>
-      <Parent12 />
+      <Text as="h1" size="lg">
+        Heading
+      </Text>
+      <Text as="p" size="md">
+        paragraph
+      </Text>
+      <Text as="label" htmlFor="someId" size="sm" color="secondry">
+        label
+      </Text>
     </div>
   );
 };
